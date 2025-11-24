@@ -166,6 +166,7 @@ Slovenia = sprites.create(img`
     ............ffff........
     ........................
     `, SpriteKind.Country)
+music.play(music.stringPlayable("- D E - F - E - ", 120), music.PlaybackMode.UntilDone)
 forever(function () {
 	
 })
